@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关于</title>
+	 <!-- 置入文件 -->
+	<script src="bootstrap/js/jquery-3.2.1.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mouseMoving.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+<body>
+<!-- ==================================导航条 ==================================-->
+<header id="header_wrapper">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  	<div class="container">
+	    	<div class="header_box">
+	      		<div class="logo">
+	      			<a href="#"><img src="images/index/logo/mylogo.png" alt="logo"></a>
+	      		</div>
+		  		<nav class="navbar navbar-inverse" role="navigation">
+	  				<div class="navbar-header">
+	    				<button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> 
+	    					<span class="sr-only"></span> 
+				        	<span class="icon-bar"></span> 
+				        	<span class="icon-bar"></span> 
+				        	<span class="icon-bar"></span> 
+	    				</button>
+	    			</div>
+	    			<div id="main-nav" class="collapse navbar-collapse navStyle">
+						<ul class="nav navbar-nav" id="mainNav">
+						  <li><a href="index.html" class="scroll-link">首页</a></li>
+						  <li><a href="service.html" class="scroll-link">网站建设</a></li>
+						  <li><a href="proce.html" class="scroll-link">订购流程</a></li>
+						  <li class="active"><a href="about.html" class="scroll-link">关于我们</a></li>
+						  <li><a class="scroll-link a globalLoginBtn">登录</a></li>						 
+						  <li><a href="#" class="scroll-link">案列</a></li>
+						  <li><a href="contact.html" class="scroll-link">联系我们</a></li>
+						</ul>
+	  				</div>
+		 		</nav>
+	    	</div>
+	  	</div>
+	 </nav>
+</header>
+<!-- =====================================================loginModal 登录模态=====================================================-->
+<div class="modal fade" id="loginModal" style="display:none;">	
+	<div class="modal-dialog modal-sm" style="width:500px;text-align: center;">
+		<div class="modal-content" style="border:none;">
+			<div class="col-right">
+				<div class="modal-header">
+					<button type="button" id="login_close" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="loginModalLabel">登录</h4>
+				</div>
+				<div class="modal-body">
+					<section id="box-login">
+						<form action="" method="get">
+							<div class="box-login-bg">
+								<ul class="grid">
+									<li>
+									<span>用户名：</span>
+									<input type="text" name="" value="" placeholder="4-8为用户名" class="usernaame" required>
+									</li>
+									<li>
+									<span>密码：</span>
+									<input type="password" name="" value="" placeholder="6-16位密码"" class="passwork" required>
+									</li>	
+									<li>
+									<p>还没有账号？<a href="reg.html" class="registered">立即注册</a><a href="" class="Forgot">忘记密码？</a></p>
+							    	<input type="submit" value="登录" class="btn">						    	
+									</li>
+								</ul>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ==================================section1 ==================================-->
+<section id="section1">
+	<div class="container-fuild section1-bg">
+		 <img src="images/about/section1/bg1.jpg">
+	</div>
+</section>
+<!-- ==================================section2 ==================================-->
+<section id="section2">
+    <div class="container">
+        <div class="col-md-6 section2-left">
+            <h3>「鳗鱼妹儿」网络科技有限公司</h3><br>
+            <p>主要以网站建设，移动互联，网站开发，高端网站定制为主，<br>
+            致力于为企业提供优质全面的网站建设解决方案。<br>
+            专业的技术，丰富的成功经验，卓越的创作思维，<br>
+            为您创作出一流的品牌互联网形象！<br>
+            我们的价值观：诚信、专注、尽责、创新<br>
+            我们的愿景：做一个最受客户信任的互联网企业！</p>
+        </div>
+        <div class="col-md-6 section2-right">
+            <img src="images/about/section2/gs.png" alt="">
+        </div>
+    </div>
+</section>
+<!-- ==================================section3 ==================================-->
+<section id="section3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>主创团队</h2>
+				<p>我们是一群富有工作激情与优质服务的创意与技术型团队<br>
+				   我们不在于人多，我们要的是有着超强的专业知识与独特思维方式的人才<br>
+				   在这里，我们拼搏事业，情有独钟；我们更追求卓越，精益求精！精彩创新、就做不同！做一个受客户信任的互联	企业！
+				</p>
+			</div>
+			<div class="team">
+				<ul>
+					<li>
+						<div class="grid-content"><!-- grid-content网格的内容 -->
+							<img src="images/about/section3/recruit1.png" alt="">
+							<div class="grid-shade"><!-- grid-shade网格阴影 -->
+								<div class="grid-enter"><!-- grid-enter网格输入内容 -->
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit2.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit3.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit4.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit1.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit2.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit3.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="grid-content">
+							<img src="images/about/section3/recruit4.png" alt="">
+							<div class="grid-shade">
+								<div class="grid-enter">
+									<a href="">梁燕萍</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ==================================footer==================================-->
+<footer id="footer">
+	<nav id="footer-nav">
+		 <a href="#" title="关于我们">关于我们 </a> | 
+		 <a href="#" title="服务项目">服务项目 </a> | 
+		 <a href="#" title="网站案例">网站案例 </a> | 
+		 <a href="#" title="建站常识">建站常识 </a> | 
+		 <a href="#" title="常见问题">常见问题 </a> | 
+		 <a href="#" title="联系方式">联系方式 </a> | 
+		 <a href="#" title="怀念旧版网站" target="_blank">怀念旧版网站</a> | 
+		 <a href="#" title="CRM客户管理" target="_blank">CRM客户管理系统 </a> 
+	</nav>
+	<div id="footer-bottom">
+	  	<h5>Copyright 2008-2017鳗鱼妹儿网络科技有限公司 梁燕萍@广州城建职业学院</h5>
+	</div>
+</footer>
+
+<script>
+$('.grid-content').mouseMove('.grid-shade')
+</script>
+<!-- =====================================================loginModal 登录模态js=====================================================-->
+<script type="text/javascript" src="js/jquery2.2.2.min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- =====================================================loginModal 登录模态js=====================================================-->
+</body>
+</html>

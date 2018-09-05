@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	  <!-- 置入文件 -->
+	<script src="bootstrap/js/jquery-3.2.1.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="swiper/js/swiper.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="swiper/css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- ==================================导航条 ==================================-->
+<header id="header_wrapper">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  	<div class="container">
+	    	<div class="header_box">
+	      		<div class="logo">
+	      			<a href="#"><img src="images/index/logo/mylogo.png" alt="logo"></a>
+	      		</div>
+		  		<nav class="navbar navbar-inverse" role="navigation">
+	  				<div class="navbar-header">
+	    				<button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> 
+	    					<span class="sr-only"></span> 
+				        	<span class="icon-bar"></span> 
+				        	<span class="icon-bar"></span> 
+				        	<span class="icon-bar"></span> 
+	    				</button>
+	    			</div>
+	    			<div id="main-nav" class="collapse navbar-collapse navStyle">
+						<ul class="nav navbar-nav" id="mainNav">
+						  <li class="active"><a href="index.html" class="scroll-link">首页</a></li>
+						  <li><a href="service.html" class="scroll-link">网站建设</a></li>
+						  <li><a href="proce.html" class="scroll-link">订购流程</a></li>
+						  <li><a href="about.html" class="scroll-link">关于我们</a></li>				
+						  <li><a class="scroll-link a globalLoginBtn">登录</a></li>	
+						  <li><a href="#" class="scroll-link">案列</a></li>
+						  <li><a href="contact.html" class="scroll-link">联系我们</a></li>
+						</ul>
+	  				</div>
+		 		</nav>
+	    	</div>
+	  	</div>
+	 </nav>
+</header>
+  <!--================================== 轮播图开始================================== -->
+<div class="swiper-container hidden-xs-block swiper-container1" id="home">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide bg-image1" ></div>
+        <div class="swiper-slide bg-image2" ></div>
+        <div class="swiper-slide bg-image3" ></div>
+        <div class="swiper-slide bg-image4" ></div>
+        <div class="swiper-slide bg-image5" ></div>                  
+    </div>
+    	<div class="swiper-pagination swiper-p1"></div>
+    <!-- 两边按钮箭头 -->
+	    <div class="swiper-button-next"></div>
+	    <div class="swiper-button-prev"></div>
+</div>
+<!-- =====================================================loginModal 登录模态=====================================================-->
+<div class="modal fade" id="loginModal" style="display:none;">	
+	<div class="modal-dialog modal-sm" style="width:500px;text-align: center;">
+		<div class="modal-content" style="border:none;">
+			<div class="col-right">
+				<div class="modal-header">
+					<button type="button" id="login_close" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="loginModalLabel">登录</h4>
+				</div>
+				<div class="modal-body">
+					<section id="box-login">
+						<form action="" method="get">
+							<div class="box-login-bg">
+								<ul class="grid">
+									<li>
+									<span>用户名：</span>
+									<input type="text" name="" value="" placeholder="4-8为用户名" class="usernaame" required>
+									</li>
+									<li>
+									<span>密码：</span>
+									<input type="password" name="" value="" placeholder="6-16位密码"" class="passwork" required>
+									</li>	
+									<li>
+									<p>还没有账号？<a href="reg.html" class="registered">立即注册</a><a href="" class="Forgot">忘记密码？</a></p>
+							    	<input type="submit" value="登录" class="btn">						    	
+									</li>
+								</ul>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ==================================section1 ==================================-->
+<section id="section1">
+	<div class="container-fuild">
+		<div class="container">
+	        <div class="row">
+	        	<div class="col-md-12 headline">
+	              <h1>用心服务  追求客户满意</h1>
+		          <h2>技术跨界，创意自由。专业鳗鱼妹儿网站建设公司！</h2>
+		          <h3>Technology crosses boundaries and creativity is free. Professional eel sisters website construction company!</h3>
+		        </div>
+	        </div>
+	        <div class="row headline-icon">
+	        	<div class="col-md-3 section1-icon">
+	        		<span><img src="images/index/section1/responsive.png"></span>
+	        		<h1>【网站建设】</h1>
+	        		<h2>WEBSITE BUILDING</h2>
+	        	</div>
+	        	<div class="col-md-3 section1-icon">
+	        		<span><img src="images/index/section1/phone.png"></span>
+	        		<h1>【移动端】</h1>
+	        		<h2>MOBLIE END</h2>
+	        	</div>
+	        	<div class="col-md-3 section1-icon">
+	        		<span><img src="images/index/section1/Small program.png"></span>
+	        		<h1>【小程序】</h1>
+	        		<h2>APPLETS</h2>
+	        	</div>
+	        	<div class="col-md-3 section1-icon">
+	        		<span><img src="images/index/section1/SEO.png"></span>
+	        		<h1>【SEO优化】</h1>
+	        		<h2>SEO OPTIMIZE</h2>
+	        	</div>
+	        </div>
+	        <div class="row">
+	        	<div class="col-md-12 section1-bg">        	
+	        		<span><img src="images/index/section1/wspbg.png"></span>
+	        	</div>
+	        </div>
+	    </div>
+	</div>
+</section>
+<!-- ===============================section2=================================== -->
+<section id="section2">
+	<div class="container-fuild">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section2-headline">
+		              <h1>精彩创新,就做不同</h1>
+			          <h2>我们是设计师、工程师、梦想者</h2>
+			          <h3>SER EXPERIENCE EXPERTS WE ARE DESIGNERS, ENGINEERS, DREAM</h3>
+			          <p> 我们是一支充满着热情的团队，执着、敏锐、追求口碑是凡高网络的特色，真诚为客户提供贴心的服务是我们的理念。<br>
+	      				  技术跨界、创意自由！好作品自己会说话。耐心周到的服务回报客户！鳗鱼网络愿与您共同见证彼此成长！
+	      			  </p>
+			    </div>
+			</div>
+			<div class="row border-all">
+				<div class="col-md-2 section2-icon icon1">
+					<img src="images/index/section2/公司简介.png" alt="">
+					<h2>公司简介</h2>
+				</div>
+				<div class="col-md-2 section2-icon icon2">
+					<img src="images/index/section2/企业文化.png" alt="">
+					<h2>文化理念</h2>
+				</div>
+				<div class="col-md-2 section2-icon icon3">
+					<img src="images/index/section2/人力资源.png" alt="">
+					<h2>人力资源</h2>
+				</div>
+				<div class="col-md-2 section2-icon icon4">
+					<img src="images/index/section2/客户管理 (1).png" alt="">
+					<h2>客户管理</h2>
+				</div>
+				<div class="col-md-2 section2-icon icon5">
+					<img src="images/index/section2/联系.png" alt="">
+					<h2>联系我们</h2>
+				</div>
+			</div>
+			<div class="row section2-about">
+				<div class="col-md-6 section2-left">
+					<img src="images/index/index/section2/map.png" alt="">
+				</div>
+				<div class="col-md-6 section2-right">
+					<h1>您好HELLO!</h1>
+					<p>感谢您来到鳗鱼妹儿网络科技有限公司官方网站，若您有合作意向，请您使用以下联<br>
+					   系方式与我们取得联系。丰富的网站建设与网站制作经验，上千家客户的共同选择。期<br>
+					   待与您合作，并为您提供一对一的网站建设服务，谢谢。
+					</p>
+					<p><i class="fa fa-phone fa-1x"></i>24小时业务咨询热线 ：<span>13035851172</span></p>
+					<p><i class="fa fa-map-marker fa-1x"></i>广州从化城建职业学院</p> 
+					<a href="#" id="section2-btn">给我们留言吧！</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--===================footer===========================-->
+<footer id="footer">
+	<nav id="footer-nav">
+		 <a href="#" title="关于我们">关于我们 </a> | 
+		 <a href="#" title="服务项目">服务项目 </a> | 
+		 <a href="#" title="网站案例">网站案例 </a> | 
+		 <a href="#" title="建站常识">建站常识 </a> | 
+		 <a href="#" title="常见问题">常见问题 </a> | 
+		 <a href="#" title="联系方式">联系方式 </a> | 
+		 <a href="#" title="怀念旧版网站" target="_blank">怀念旧版网站</a> | 
+		 <a href="#" title="CRM客户管理" target="_blank">CRM客户管理系统 </a> 
+	</nav>
+	<div id="footer-bottom">
+	  	<h5>Copyright 2008-2017鳗鱼妹儿网络科技有限公司 梁燕萍@广州城建职业学院</h5>
+	</div>
+</footer>
+
+<!-- ==============================sidebar侧边栏 ==============================-->
+<div class="go-top dn" id="go-top">
+    <a href="javascript:;" class="uc-2vm"></a>
+	<div class="uc-2vm-pop Qrcode">
+		<h2 class="title-2wm">用微信扫一扫</h2>
+		<div class="logo-2wm-box">
+			<img src="images/index/sidenav/weixin.jpg"  width="220" height="220">
+		</div>
+	</div>
+    <a href="" target="_blank" class="feedback"></a>
+    <a href="javascript:;" class="go"></a>
+</div>
+<!-- ==============================轮播图 ==============================-->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <!-- =====================================================loginModal 登录模态js=====================================================-->
+<script type="text/javascript" src="js/jquery2.2.2.min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- =====================================================loginModal 登录模态js=====================================================-->
+<!-- ==============================侧边栏jq ==============================-->
+<script>
+$(function(){
+	$(window).on('scroll',function(){
+		var st = $(document).scrollTop();
+		if( st>0 ){
+			if( $('#main-container').length != 0  ){
+				var w = $(window).width(),mw = $('#main-container').width();
+				if( (w-mw)/2 > 70 )
+					$('#go-top').css({'left':(w-mw)/2+mw+20});
+				else{
+					$('#go-top').css({'left':'auto'});
+				}
+			}
+			$('#go-top').fadeIn(function(){
+				$(this).removeClass('Qrcode');
+			});
+		}else{
+			$('#go-top').fadeOut(function(){
+				$(this).addClass('Qrcode');
+			});
+		}	
+	});
+	$('#go-top .go').on('click',function(){
+		$('html,body').animate({'scrollTop':0},500);
+	});
+
+	$('#go-top .uc-2vm').hover(function(){
+		$('#go-top .uc-2vm-pop').removeClass('Qrcode');
+	},function(){
+		$('#go-top .uc-2vm-pop').addClass('Qrcode');
+	});
+});
+</script>
+<!-- ==============================侧边栏jq ==============================-->
+</body>
+</html>

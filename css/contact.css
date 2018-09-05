@@ -1,0 +1,187 @@
+/*导航条*/
+#header_wrapper{
+  background:#fff;
+  padding: 20px 0px;
+}
+.header_box {
+  position: relative;
+}
+.logo {
+  float: left;
+  margin-top: 8px;
+  position: relative;
+  z-index: 2;
+}
+.logo>a>img{
+  width: 120px;
+  height: 40px;
+}
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;/*transparent透明*/
+}
+#nav-toggle{
+  background-color:#ddd;
+  border:none;
+}
+.navbar {
+    border: 0px solid #fff;
+    min-height: 60px;
+    margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #222;
+}
+.navStyle {
+    float: right;
+}
+.navStyle ul {
+    list-style: none;
+    padding: 0px;
+}
+.navStyle ul li {
+    /*display: inline-block;*/
+    margin: 0 5px;
+}
+.navStyle ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #222222;
+    font-weight:bold;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #df0031;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #df0031;
+    background-color: transparent;
+}
+/*===========loginModal 登录模态===============*/
+ul,ol{list-style:none;list-style-image:none;margin:0;padding:0}
+.box-login-bg{
+  margin:auto;
+  width: 380px;
+  height: 200px;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-left:-5px;
+  background-color: #ffffff;
+}
+.grid>li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+.grid>li>span{
+  width:100px;
+  text-align:right;
+  display:inline-block;
+  margin: auto;
+  margin-left:30px;
+  margin-top: 10px;
+}
+.grid>li>input{
+  width: 228px;
+  height: 30px;
+  border:1px solid #333;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+  .grid>li>.btn{
+    width: 120px;
+    padding-left: 0px;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .grid>li>p>a{
+  text-decoration: none;
+  }
+  .grid>li>p{
+    font-size: 12px;
+  }
+  .Forgot{
+    float: right;
+  }
+  .registered{
+    color:#ff9600;
+  }
+    .registered:hover{
+    color:#ff9600;
+  }
+/*====================contact====================*/
+#contact{
+  padding-top: 5%;
+  }
+  .contact-all{
+  background-image: url(../images/contact/2.jpg);
+  min-height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contact-left{
+  padding-left: 5%;
+}
+.contact-left>p{
+  text-align: center;
+  line-height: 25px;
+}
+.contact-left>p>.icon{
+  color:#00df99; 
+}
+.contact-right{
+  padding-right: 100px;
+}
+.section-right{
+  width: 70%;
+  float: right;
+}
+.section-right label{
+  color: #000;
+  font-size: 18px;
+}
+.section-right input{
+  margin: 0px auto 10px;
+}
+.section-right textarea{
+  height: 120px;
+}
+.section-right .btn{
+  width: 30%;
+  font-size: 16px;
+  background-color:#00dfb1; 
+  border:0px;
+  color: #fff;
+}
+.section-table{
+  margin: 10px auto;
+}
+.section-table a{
+  color: #000;
+}
+.footer-all{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.contact-left>p{
+  padding-top: 3%;
+}
+/*=================================================footer=================================================*/
+#footer{
+  text-align: center;
+  background: #010;
+}
+#footer-nav>a{
+  text-decoration: none;
+}
+#footer-nav>a,#footer-bottom>h5{
+  font-size: 12px;
+  color: #fff;
+}

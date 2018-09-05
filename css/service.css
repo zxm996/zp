@@ -1,0 +1,219 @@
+/*========================导航条========================*/
+#header_wrapper{
+    background:#fff;
+    padding: 20px 0px;
+   /* opacity: 0.5;*/
+}
+.header_box {
+    position: relative;
+}
+.logo {
+    float: left;
+    margin-top: 8px;
+	position: relative;
+	z-index: 2;
+}
+.logo>a>img{
+	width: 120px;
+    height: 40px;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;/*transparent透明*/
+}
+#nav-toggle{
+	background-color:#ddd;
+	border:none;
+}
+.navbar {
+    border: 0px solid #fff;
+    min-height: 60px;
+    margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #222;
+}
+.navStyle {
+    float: right;
+}
+.navStyle ul {
+    list-style: none;
+    padding: 0px;
+}
+.navStyle ul li {
+    /*display: inline-block;*/
+    margin: 0 5px;
+}
+.navStyle ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #222222;
+    font-weight:bold;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #df0031;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #df0031;
+    background-color: transparent;
+}
+/*===========loginModal 登录模态===============*/
+ul,ol{list-style:none;list-style-image:none;margin:0;padding:0}
+.box-login-bg{
+  margin:auto;
+  width: 380px;
+  height: 200px;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-left:-5px;
+  background-color: #ffffff;
+}
+.grid>li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+.grid>li>span{
+  width:100px;
+  text-align:right;
+  display:inline-block;
+  margin: auto;
+  margin-left:30px;
+  margin-top: 10px;
+}
+.grid>li>input{
+  width: 228px;
+  height: 30px;
+  border:1px solid #333;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+  .grid>li>.btn{
+    width: 120px;
+    padding-left: 0px;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .grid>li>p>a{
+  text-decoration: none;
+  }
+  .grid>li>p{
+    font-size: 12px;
+  }
+  .Forgot{
+    float: right;
+  }
+  .registered{
+    color:#ff9600;
+  }
+    .registered:hover{
+    color:#ff9600;
+  }
+
+/*=========================section1=========================*/
+#section1{
+	padding-top: 5%;
+	padding-bottom:5%;
+	/*background: #ccc;*/
+}
+/*.section1-headline>img{
+	float: left;
+}*/
+.section1-headline>h2{
+	text-align: center;
+	padding-bottom: 2%;
+}
+.headline_img{
+	padding-top: 1%;
+}
+.headline_img>img{
+	width: 45px;
+	 height: 45px;
+}
+.headline_right>span{
+	font-size: 28px;
+	color: #61B0FF;
+}
+.headline_right>p{
+    color: #696969;
+    font-size: 20px;
+}
+.section1-right>img{
+	width: 75%;
+}
+.section1-adv{
+	text-align: center;
+	padding-top: 16%;
+}
+.section1-left{
+	padding-top: 6%;
+}
+.section1-left>p{
+	text-align: right;
+}
+
+.section1-left>p>img{
+	width: 25px;
+	height: 25px;
+}
+    /*当headline页面执行到最大页面时执行以下内容*/
+    @media(max-width: 1200px){
+    	.headline_right>span{
+			font-size: 15px;
+			color: #61B0FF;
+		}
+		.headline_right>p{
+		    color: #696969;
+		    font-size: 10px;
+		}
+		.section1-left>p{
+		text-align: left;
+	}
+    }
+/*===================section2===================*/
+#section2{
+	padding-bottom:1%;
+}
+.section2-img>img{
+	width: 100%;
+}
+/*===================section3===================*/
+#section3{
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+.section3_img>img{
+	width: 100%;
+}
+.section3-icon>.icon>p{
+	padding-top: 10%;
+	padding-bottom:10%;
+}
+    /*当.section3-icon>.icon>p页面执行到最大页面时执行以下内容*/
+  @media(max-width: 1200px){
+	.section3-icon>.icon>p{
+	padding-top: 2%;
+	padding-bottom:2%;
+}
+    }
+.section3-icon>.icon>p>img{
+	width: 46px;
+	height: 46px;
+}
+/*=================================================footer=================================================*/
+#footer{
+  text-align: center;
+  background: #010;
+}
+#footer-nav>a{
+  text-decoration: none;
+}
+#footer-nav>a,#footer-bottom>h5{
+  font-size: 12px;
+  color: #fff;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- 置入文件 -->
+  <link rel="stylesheet" href="css/registered.css">
+  <title>注册页面</title>
+</head>
+<body>
+  <header id="nav">
+    <nav class="reg_nav">
+        <div class="reg_logo">
+            <a href="#"><img src="images/index/logo/mylogo.png" alt="logo"></a>
+        </div>
+        <div class="reg_right">
+            <span class="existing_account">已有账号？</span>
+            <!-- <span><a class="scroll-link a globalLoginBtn">登录</a></span> -->
+            <a href="index.html"><span id="to-login" register-type="0">首页</span></a>
+        </div>
+     </nav>
+  </header>
+<!-- =====================================================reg=====================================================-->
+<div class="container regbody"> <!-- @media(max-width:1200px){.container{padding-top:100px;}} -->
+  <div class="reg_div">
+    <p>注册</p>
+    <ul class="reg_ul">
+      <li>
+          <span>用户名：</span>
+          <input type="text" name="" value="" placeholder="4-8位用户名" class="reg_user">
+          <span class="tip user_hint"></span>
+      </li>
+      <li>
+          <span>密码：</span>
+          <input type="password" name="" value="" placeholder="6-16位密码" class="reg_password">
+          <span class="tip password_hint"></span>
+      </li>
+      <li>
+          <span>确认密码：</span>
+          <input type="password" name="" value="" placeholder="确认密码" class="reg_confirm">
+          <span class="tip confirm_hint"></span>
+      </li>
+      <li>
+          <span>邮箱：</span>
+          <input type="text" name="" value="" placeholder="邮箱" class="reg_email">
+          <span class="tip email_hint"></span>
+      </li>
+      <li>
+          <span>手机号码：</span>
+          <input type="email" name="" value="" placeholder="手机号" class="reg_mobile">
+          <span class="tip mobile_hint"></span>
+      </li>
+
+      <div id="deal">
+          <input type="checkbox" checked="checked">
+          <label>
+            <span>同意</span>          
+            <a href="deal.html"> <span>《鳗鱼网络用户注册协议》</span></a>
+          </label>
+      </div>
+
+      <li>
+        <button type="button" name="button" class="reg_button">注册</button>
+      </li>
+    </ul>
+  </div>
+</div>
+  <!-- ==========================script========================== -->
+  <script type="text/javascript" src="js/jquery.min.registered.js"></script>
+  <script type="text/javascript" src="js/registered.js"></script>
+</body>
+</html>
+

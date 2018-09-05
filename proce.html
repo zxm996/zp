@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订购流程</title>
+    <!-- 置入文件 -->
+    <script src="bootstrap/js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/proce.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/proce.css">
+</head>
+<body>
+<!-- ==================================导航条 ==================================-->
+<header id="header_wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="header_box">
+                <div class="logo">
+                    <a href="#"><img src="images/index/logo/mylogo.png" alt="logo"></a>
+                </div>
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> 
+                            <span class="sr-only"></span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                        </button>
+                    </div>
+                    <div id="main-nav" class="collapse navbar-collapse navStyle">
+                        <ul class="nav navbar-nav" id="mainNav">
+                          <li><a href="index.html" class="scroll-link">首页</a></li>
+                          <li><a href="service.html" class="scroll-link">网站建设</a></li>
+                          <li class="active"><a href="proce.html" class="scroll-link">订购流程</a></li>
+                          <li><a href="about.html" class="scroll-link">关于我们</a></li>                
+                          <li><a class="scroll-link a globalLoginBtn">登录</a></li>   
+                          <li><a href="#" class="scroll-link">案列</a></li>
+                          <li><a href="contact.html" class="scroll-link">联系我们</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+     </nav>
+</header>
+<!-- =====================================================loginModal 登录模态=====================================================-->
+<div class="modal fade" id="loginModal" style="display:none;">  
+    <div class="modal-dialog modal-sm" style="width:500px;text-align: center;">
+        <div class="modal-content" style="border:none;">
+            <div class="col-right">
+                <div class="modal-header">
+                    <button type="button" id="login_close" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="loginModalLabel">登录</h4>
+                </div>
+                <div class="modal-body">
+                    <section id="box-login">
+                        <form action="" method="get">
+                            <div class="box-login-bg">
+                                <ul class="grid">
+                                    <li>
+                                    <span>用户名：</span>
+                                    <input type="text" name="" value="" placeholder="4-8为用户名" class="usernaame" required>
+                                    </li>
+                                    <li>
+                                    <span>密码：</span>
+                                    <input type="password" name="" value="" placeholder="6-16位密码"" class="passwork" required>
+                                    </li>   
+                                    <li>
+                                    <p>还没有账号？<a href="reg.html" class="registered">立即注册</a><a href="" class="Forgot">忘记密码？</a></p>
+                                    <input type="submit" value="登录" class="btn">                                
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- =======================step======================= -->
+<div class="row" id="step">
+    <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture bounce-in">
+                <img src="images/proce/flow/01.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content bounce-in">
+                <h1>1</h1>
+                <p style="font-size: 18px;">深入需求沟通</p>
+                <p style="font-size: 15px;">只有深入的了解行业背景以及用户需求，才能规划春最合适您的网站/APP</p>               
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie bounce-in">
+                <img src="images/proce/flow/02.png" alt="Movie">
+            </div> 
+            <div class="cd-timeline-content bounce-in">                
+                <h1>2</h1>
+                <p style="font-size: 18px;">UE原型策划</p>
+                <p style="font-size: 15px;">策划是创作一个好作品的开始，我们只用互联网思维去规划用户体验并形成项目原型</p>       
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture bounce-in">
+                <img src="images/proce/flow/03.png" alt="Picture">
+            </div> 
+            <div class="cd-timeline-content bounce-in">                
+                <h1>3</h1>
+                <p style="font-size: 18px;">UI创意设计</p>
+                <p style="font-size: 15px;">头脑风暴，不是一个人的事，RISENB果断淘汰不精美的作品！</p>
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location bounce-in">
+                <img src="images/proce/flow/04.png" alt="Location">
+            </div> 
+            <div class="cd-timeline-content bounce-in">               
+                <h1>4</h1>
+                <p style="font-size: 18px;">UI动态交互</p> 
+                <p style="font-size: 15px;">HTML5+CSS3, 轻松兼容全网客户端！</p>       
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location bounce-in">
+                <img src="images/proce/flow/05.png" alt="Location">
+            </div> 
+            <div class="cd-timeline-content bounce-in">               
+                <h1>5</h1>
+                <p style="font-size: 18px;">全网整合开发</p>
+                <p style="font-size: 15px;">全网技术开发，轻松实现跨平台数据同步。</p>
+            </div> 
+        </div> 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie bounce-in">
+                <img src="images/proce/flow/06.png" alt="Movie">
+            </div> 
+            <div class="cd-timeline-content bounce-in">                
+                <h1>6</h1>
+                <p style="font-size: 18px;">全面专业测试</p>
+                <p style="font-size: 15px;">并发，性能，安全，压力，负载均衡......确保提交给您最稳定的系统。</p> 
+            </div>
+        </div>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture bounce-in">
+                <img src="images/proce/flow/07.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content bounce-in">              
+                <h1>7</h1>
+                <p style="font-size: 18px;">完美交接</p> 
+                <p style="font-size: 15px;">精益求精的每一个工作环节，都是完美交接的基础</p>            
+            </div> 
+        </div> 
+    </section>
+</div>
+<footer id="footer">
+    <nav id="footer-nav">
+         <a href="#" title="关于我们">关于我们 </a> | 
+         <a href="#" title="服务项目">服务项目 </a> | 
+         <a href="#" title="网站案例">网站案例 </a> | 
+         <a href="#" title="建站常识">建站常识 </a> | 
+         <a href="#" title="常见问题">常见问题 </a> | 
+         <a href="#" title="联系方式">联系方式 </a> | 
+         <a href="#" title="怀念旧版网站" target="_blank">怀念旧版网站</a> | 
+         <a href="#" title="CRM客户管理" target="_blank">CRM客户管理系统 </a> 
+    </nav>
+    <div id="footer-bottom">
+        <h5>Copyright 2008-2017鳗鱼妹儿网络科技有限公司 梁燕萍@广州城建职业学院</h5>
+    </div>
+</footer>
+  <!-- =====================================================loginModal 登录模态js=====================================================-->
+<script type="text/javascript" src="js/jquery2.2.2.min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- =====================================================loginModal 登录模态js=====================================================-->
+<script>
+$(function(){
+	var $timeline_block = $('.cd-timeline-block');
+	$timeline_block.each(function(){
+		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		}
+	});
+	$(window).on('scroll', function(){
+		$timeline_block.each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+			}
+		});
+	});
+});
+</script>
+</script>
+</body>
+</html>

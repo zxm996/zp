@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>服务</title>
+	<!-- 置入文件 -->
+	<script src="bootstrap/js/jquery-3.2.1.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/service.css">
+</head>
+<body>
+<!-- ==================================导航条 ==================================-->
+<header id="header_wrapper">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  	<div class="container">
+	    	<div class="header_box">
+	      		<div class="logo">
+	      			<a href="#"><img src="images/index/logo/mylogo.png" alt="logo"></a>
+	      		</div>
+		  		<nav class="navbar navbar-inverse" role="navigation">
+	  				<div class="navbar-header">
+	    				<button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> 
+	    					<span class="sr-only"></span> 
+				        	<span class="icon-bar"></span> 
+				        	<span class="icon-bar"></span> 
+				        	<span class="icon-bar"></span> 
+	    				</button>
+	    			</div>
+	    			<div id="main-nav" class="collapse navbar-collapse navStyle">
+						<ul class="nav navbar-nav" id="mainNav">
+						  <li><a href="index.html" class="scroll-link">首页</a></li>
+						  <li class="active"><a href="#" class="scroll-link">网站建设</a></li>
+						  <li><a href="proce.html" class="scroll-link">订购流程</a></li>
+						  <li><a href="about.html" class="scroll-link">关于我们</a></li>				
+						  <li><a class="scroll-link a globalLoginBtn">登录</a></li>	
+						  <li><a href="#" class="scroll-link">案列</a></li>
+						  <li><a href="#" class="scroll-link">联系我们</a></li>
+						</ul>
+	  				</div>
+		 		</nav>
+	    	</div>
+	  	</div>
+	 </nav>
+</header>
+<!-- =====================================================loginModal 登录模态=====================================================-->
+<div class="modal fade" id="loginModal" style="display:none;">	
+	<div class="modal-dialog modal-sm" style="width:500px;text-align: center;">
+		<div class="modal-content" style="border:none;">
+			<div class="col-right">
+				<div class="modal-header">
+					<button type="button" id="login_close" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="loginModalLabel">登录</h4>
+				</div>
+				<div class="modal-body">
+					<section id="box-login">
+						<form action="" method="get">
+							<div class="box-login-bg">
+								<ul class="grid">
+									<li>
+									<span>用户名：</span>
+									<input type="text" name="" value="" placeholder="4-8为用户名" class="usernaame" required>
+									</li>
+									<li>
+									<span>密码：</span>
+									<input type="password" name="" value="" placeholder="6-16位密码"" class="passwork" required>
+									</li>	
+									<li>
+									<p>还没有账号？<a href="reg.html" class="registered">立即注册</a><a href="" class="Forgot">忘记密码？</a></p>
+							    	<input type="submit" value="登录" class="btn">						    	
+									</li>
+								</ul>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- =============================section1============================= -->
+<section id="section1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section1-headline">
+				<h2>核心优势</h2>
+			</div>
+			<div class="col-md-2 headline_img">
+				<img src="images/service/1.png" alt="">
+			</div>
+			<div class="col-md-10 headline_right">
+				<span>响应式设计 – 随”机”应变的节奏</span>
+				<p>设计师帮您搞定手机/平板/PC，无边界响应，无边界设计，BIG THEN BIG !</p>
+			</div>
+
+			<div class="row section1-adv">
+				<div class="col-md-4 section1-left">
+					<p><img src="images/service/全屏.png" alt="">内容适应不同屏幕尺寸</p>
+					<p><img src="images/service/手机.png" alt="">无需为手机独立建站</p>
+					<p><img src="images/service/更新.png" alt="">内容自动同步更新</p>
+					<p><img src="images/service/搜索.png" alt="">手机搜索引擎排名靠前</p>
+				</div>
+				<div class="col-md-8 section1-right">
+					<img src="images/service/wsp.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =============================section2============================= -->
+<section id="section2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 headline_img">
+				<img src="images/service/2.png" alt="">
+			</div>
+			<div class="col-md-10 headline_right">
+				<span>强大功能组件，满足您对网站功能的所有想象</span>
+				<p>图文、资讯、产品、商城、影音、表单、活动组件，应有尽有…</p>
+			</div>
+			<div class="col-md-12 section2-img">
+				<img src="images/service/1111.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =============================section3============================= -->
+<section id="section3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 headline_img">
+				<img src="images/service/3.png" alt="">
+			</div>
+			<div class="col-md-10 headline_right">
+				<span>零风险，不满意100%全额退款承诺</span>
+				<p>鳗鱼为用户提供的协议保障，切身保护每一位的用户的合法权益</p>
+			</div>
+			<div class="row section3-icon">
+				<div class="col-md-4 icon">
+					<p><img src="images/service/100.png" alt=""> 首页设计不满意全额退款</p>
+				</div>
+				<div class="col-md-4 icon">
+					<p><img src="images/service/60.png" alt="">内页设计不满意可退款70%</p>
+				</div>
+				<div class="col-md-4 icon">
+					<p><img src="images/service/30.png" alt="">内容填充不满意可退款30%</p>
+				</div>
+				<div class="col-md-12 section3_img">
+					<img src="images/service/img-3.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer id="footer">
+	<nav id="footer-nav">
+		 <a href="#" title="关于我们">关于我们 </a> | 
+		 <a href="#" title="服务项目">服务项目 </a> | 
+		 <a href="#" title="网站案例">网站案例 </a> | 
+		 <a href="#" title="建站常识">建站常识 </a> | 
+		 <a href="#" title="常见问题">常见问题 </a> | 
+		 <a href="#" title="联系方式">联系方式 </a> | 
+		 <a href="#" title="怀念旧版网站" target="_blank">怀念旧版网站</a> | 
+		 <a href="#" title="CRM客户管理" target="_blank">CRM客户管理系统 </a> 
+	</nav>
+	<div id="footer-bottom">
+	  	<h5>Copyright 2008-2017鳗鱼妹儿网络科技有限公司 梁燕萍@广州城建职业学院</h5>
+	</div>
+</footer>
+  <!-- =====================================================loginModal 登录模态js=====================================================-->
+<script type="text/javascript" src="js/jquery2.2.2.min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- =====================================================loginModal 登录模态js=====================================================-->
+</body>
+</html>

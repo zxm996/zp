@@ -1,0 +1,476 @@
+/*导航条*/
+#header_wrapper{
+    background:#fff;
+    padding: 20px 0px;
+   /* opacity: 0.5;*/
+}
+.header_box {
+    position: relative;
+}
+.logo {
+    float: left;
+    margin-top: 8px;
+	position: relative;
+	z-index: 2;
+}
+.logo>a>img{
+	width: 120px;
+    height: 40px;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;/*transparent透明*/
+}
+#nav-toggle{
+	background-color:#ddd;
+	border:none;
+}
+.navbar {
+    border: 0px solid #fff;
+    min-height: 60px;
+    margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #222;
+}
+.navStyle {
+    float: right;
+}
+.navStyle ul {
+    list-style: none;
+    padding: 0px;
+}
+.navStyle ul li {
+    /*display: inline-block;*/
+    margin: 0 5px;
+}
+.navStyle ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #222222;
+    font-weight:bold;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #df0031;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #df0031;
+    background-color: transparent;
+}
+/*  <!--================================== 轮播图开始================================== -->*/
+	html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container1 {
+      width: 100%;
+      height: 100%;
+    }
+    /*当轮播图页面执行到最大页面时执行以下内容*/
+    @media(max-width: 768px){
+    	.swiper-container1{
+    		width: 100%;
+    		height: 50%;
+    		position: relative;
+    	}
+    }
+        @media(max-width: 1200px){
+      .swiper-container1{
+        width: 100%;
+        height: 50%;
+        position: relative;
+      }
+    }
+    .swiper-slide {
+      text-align: center;
+      color: #f00;
+      font-size: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .bg-image1{
+    background-image: url(../images/index/bg-image/11.jpg) ;
+    background-size: 100% 100%;
+    }
+    .bg-image2{
+        background-image: url(../images/index/bg-image/12.jpg) ;
+        background-size: 100% 100%;
+    }
+    .bg-image3{
+        background-image: url(../images/index/bg-image/13.jpg) ;
+        background-size: 100% 100%;
+    }
+    .bg-image4{
+        background-image: url(../images/index/bg-image/14.png) ;
+        background-size: 100% 100%;
+    }
+    .bg-image5{
+        background-image: url(../images/index/bg-image/15.jpg) ;
+        background-size: 100% 100%;
+    }
+/*<!-- ==================================section1 ==================================-->*/
+#section1>.container-fuild{
+	background-color: #fff;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.headline>h1{
+	   font-size: 35px;
+    color: #ff1d00;
+    line-height: 65px;
+    text-align: center;
+}
+.headline>h2{
+	font-size: 20px;
+    color: #4a4a4c;
+    padding: 1px 0 10px 0;
+    text-align: center;
+	}
+.headline>h3{
+	color: #b2b2b3;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+	}
+    /*headline页面执行到最大页面时执行以下内容*/
+    @media(max-width: 768px){
+      .headline>h1{
+  	 font-size: 20px;
+      color: #ff1d00;
+      line-height: 20px;
+      text-align: center;
+  	}
+  	.headline>h2{
+  		  font-size: 8px;
+  	    color: #4a4a4c;
+  	    padding: 1px 0 10px 0;
+  	    text-align: center;
+  	}
+  	.headline>h3{
+  		  color: #b2b2b3;
+  	    font-size: 5px;
+  	    text-align: center;
+  	    text-transform: uppercase;
+  		}
+    }
+    /*=======headline-icon=======*/
+    .headline-icon{
+    	text-align: center;
+      padding-top:3%;
+    }
+    .section1-icon>span>img{
+     	width: 100px;
+     	height: 100px;
+     }
+    .section1-icon>h1{
+	    font-size: 16px;
+	    text-align: center;
+	    color: #545454;
+ 	}
+   .section1-icon>h2{
+  	 	font-size: 16px;
+  	 	font-size: 11px;
+	    line-height: 25px;
+	    color: #777;
+	    text-align: center;
+ 	}
+ 	  /*=======headline-bg=======*/
+	.section1-bg>span>img{
+		display: block;
+		margin:0 auto;
+		width: 500px;
+		height: 300px;
+	}
+    /*.section1-bg>span>img页面执行到最大页面时执行以下内容*/
+    @media(max-width: 768px){
+    	.section1-bg>span>img{
+    		display: block;
+    		margin:0 auto;
+    		width: 280px;
+    		height: 160px;
+    	}
+    }
+/*<!-- ==================================section2 ==================================-->*/
+#section2>.container-fuild{
+	background-color: #eee;
+}
+#section2{
+	padding-bottom: 8%;
+}
+.section2-headline>h1{
+	  font-size: 35px;
+    color: #ff1d00;
+    line-height: 65px;
+    text-align: center;
+}
+.section2-headline>h2{
+    font-size: 20px;
+    color: #4a4a4c;
+    padding: 1px 0 10px 0;
+    text-align: center;
+	}
+.section2-headline>h3{
+	color: #b2b2b3;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+	}
+.section2-headline>p{
+	  text-align: center;
+    line-height: 30px;
+    margin-top: 2%;
+    color: #757477;
+    font-size: 12px;
+	}
+
+	/*.section2-headline页面执行到最大页面时执行以下内容*/
+    @media(max-width: 768px){
+  .section2-headline>h1{
+	  font-size: 20px;
+    color: #ff1d00;
+    line-height: 20px;
+    text-align: center;
+	}
+	.section2-headline>h2{
+		  font-size: 8px;
+	    color: #4a4a4c;
+	    padding: 1px 0 10px 0;
+	    text-align: center;
+	}
+	.section2-headline>h3{
+		  color: #b2b2b3;
+	    font-size: 5px;
+	    text-align: center;
+	    text-transform: uppercase;
+		}
+	.section2-headline>p{
+		  text-align: center;
+	    line-height: 30px;
+	    margin-top: 2%;
+	    color: #757477;
+	    font-size: 8px;
+	}
+}
+	.border-all{
+		padding-top: 2%;
+		padding-left: 15%;/*向左移动*/
+	}
+	.section2-icon{
+		text-align: center;
+		height: 60px;
+		border:1px solid #ccc;
+		border-radius: 5%;
+		background-color: #fff;
+	}
+	.section2-icon:hover{
+		text-align: center;
+		height: 60px;
+		border:1px solid #ccc;
+		border-radius: 5%;
+		background-color: #ddd;
+	}
+	.section2-icon>img{
+		margin-bottom:10%;
+		width: 50px;
+		height: 50px;
+	}
+	.section2-icon>h2{
+		display: inline-block;
+	/*    float: right;*/
+	    font-size: 16px;
+	    color: #363636;
+	    padding-top: 6px;
+	}
+	.section2-icon>h2:hover{
+		display: inline-block;
+	/*    float: right;*/
+	    font-size: 16px;
+	    color: red;
+	    padding-top: 6px;
+	}
+	.section2-about{
+		padding-top: 5%;
+	}
+	.section2-left{
+		text-align: center;
+	}
+	.section2-left>img{
+    width: 100%;
+	}
+	.section2-about>.section2-right>h1{
+		font-size: 15px;
+		color: red;
+	}
+	.section2-about>.section2-right>p{
+		font-size: 12px;
+		line-height: 25px;
+	}
+	.section2-about>.section2-right>p>span{
+		color: red;
+	}
+	.section2-right>a{
+		text-decoration: none;
+    color: #fff;
+	}
+  .section2-right>p>.fa-1x{
+    width: 15px;
+    height: 15px;
+    color: red;
+  }
+  #section2-btn{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:#727272;
+    /*float: right;*/
+  }
+    #section2-btn:hover{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:red;
+  }
+/*=================================================footer=================================================*/
+#footer{
+  text-align: center;
+  background: #010;
+}
+#footer-nav>a{
+  text-decoration: none;
+}
+#footer-nav>a,#footer-bottom>h5{
+  font-size: 12px;
+  color: #fff;
+}
+/*===========loginModal 登录模态===============*/
+ul,ol{list-style:none;list-style-image:none;margin:0;padding:0}
+.box-login-bg{
+  margin:auto;
+  width: 380px;
+  height: 200px;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-left:-5px;
+  background-color: #ffffff;
+}
+.grid>li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+.grid>li>span{
+  width:100px;
+  text-align:right;
+  display:inline-block;
+  margin: auto;
+  margin-left:30px;
+  margin-top: 10px;
+}
+.grid>li>input{
+  width: 228px;
+  height: 30px;
+  border:1px solid #333;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+  .grid>li>.btn{
+    width: 120px;
+    padding-left: 0px;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .grid>li>p>a{
+  text-decoration: none;
+  }
+  .grid>li>p{
+    font-size: 12px;
+  }
+  .Forgot{
+    float: right;
+  }
+  .registered{
+    color:#ff9600;
+  }
+    .registered:hover{
+    color:#ff9600;
+  }
+
+/*=========================sidebar侧边栏=========================*/
+.Qrcode{
+  display: none;
+}
+.go-top{
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 46px;
+  z-index: 999;
+}
+.go-top a{
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 10px;
+  background-image: url(../images/index/sidenav/go-top.png);
+}
+.go-top a:last-child{
+  margin-bottom: 0;
+}
+.go-top .go{
+  background-position: 0 -150px;
+}
+.go-top .go:hover{
+  background-position: 0 -250px;
+}
+.go-top .feedback{
+  background-position: 0 -100px;
+}
+.go-top .feedback:hover{
+  background-position: 0 -300px;
+}
+.go-top .uc-2vm{
+  background-position: 0 0;
+}
+.go-top .uc-2vm:hover{
+  background-position: 0 -350px;
+}
+.go-top .uc-2vm-pop{
+  position: absolute;
+  right: 60px;
+  top: -100px; 
+  width: 220px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,.1);
+  background: #fff;
+}
+.go-top .uc-2vm-pop .title-2wm{
+  font-size: 14px;
+   margin: 10px 20px;
+ }
+.go-top .uc-2vm-pop .logo-2wm-box{
+  position: relative;
+}
